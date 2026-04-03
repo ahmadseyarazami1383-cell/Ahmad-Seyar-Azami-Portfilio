@@ -38,6 +38,11 @@ body {
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 20px;
+  .navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   font-weight: bold;
 }
 
