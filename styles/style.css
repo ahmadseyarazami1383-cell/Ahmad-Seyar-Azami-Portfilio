@@ -47,8 +47,8 @@ body {
 }
 
 .navbar a {
-  margin-right: 20px;
-  padding-left: 10px;
+  margin-right: 5px;
+  padding-left: 5px;
   font-size: large;
   color: var(--text-color) !important;
   transition: color 0.3s ease;
@@ -164,32 +164,24 @@ body {
 
 .whatsapp-link {
   position: fixed;
-  bottom: 10px;
-  right: 180px;
+  bottom: 20px;
+  right: 20px; /* keep it close to the corner */
 
   background-color: #25d366;
   color: white;
   border-radius: 50%;
   padding: 15px;
-  font-size: 15px;
+  font-size: 20px; /* slightly larger for visibility */
   box-shadow: 0 0 20px rgba(37, 211, 102, 0.8);
-  z-index: 100vh;
+  z-index: 9999; /* ensures it stays above other elements */
   animation: whatsapp-glow 2s infinite alternate;
 }
-
-/* Shine / Glow Animation */
-@keyframes whatsapp-glow {
-  0% {
-    box-shadow:
-      0 0 15px rgba(37, 211, 102, 0.6),
-      0 0 30px rgba(37, 211, 102, 0.4);
-    transform: scale(1);
-  }
-  100% {
-    box-shadow:
-      0 0 25px rgba(37, 211, 102, 1),
-      0 0 50px rgba(37, 211, 102, 0.8);
-    transform: scale(1.05);
+@media (max-width: 576px) {
+  .whatsapp-link {
+    bottom: 15px;
+    right: 15px;
+    padding: 12px;
+    font-size: 18px;
   }
 }
 
