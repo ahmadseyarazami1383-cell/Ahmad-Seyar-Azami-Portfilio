@@ -1,0 +1,204 @@
+:root {
+  --bg-color: #e9f0fa;
+  --text-color: #0d1164;
+  --accent: #0d1164;
+  --card-bg: #ffffff;
+}
+
+/* Dark theme variables */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #f8f9fa;
+  --card-bg: #1e1e1e;
+  --accent: #6bb3dd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-color) !important;
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  transition:
+    background 0.4s ease,
+    color 0.4s ease;
+}
+
+.navbar {
+  background: linear-gradient(
+    rgba(107, 179, 221, 0.3),
+    rgba(107, 179, 221, 0.3),
+    #6bb3dd
+  ) !important;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  font-weight: bold;
+}
+
+.navbar a {
+  margin-right: 20px;
+  padding-left: 10px;
+  font-size: large;
+  color: var(--text-color) !important;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffd700; /* golden hover effect */
+}
+
+.navbar-collapse {
+  transition: all 0.5s ease;
+}
+.lang-select {
+  background: none;
+  border: none;
+  font-size: 1.7rem;
+  color: var(--text-color);
+  cursor: pointer;
+  appearance: none;
+  padding: 0;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.lang-select:hover {
+  color: #0d1164 !important; /* golden hover effect */
+}
+
+.hero {
+  height: 100vh;
+  margin-top: 10px;
+  color: var(--text-color);
+  padding-top: 0px;
+}
+.hero p {
+  font-size: 1px;
+}
+.heroinfo {
+  font-size: 15px;
+}
+.text-lable {
+  font-size: 25px;
+
+  color: #0d1164;
+  font-weight: bold;
+}
+#typed-text {
+  border: #0d1164 2px solid;
+  padding-left: 14px;
+  padding-right: 14px;
+
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #0d1164;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+.btn:hover {
+  background-color: #6bb3dd !important;
+}
+.skills {
+  background: var(--bg-color);
+  padding: 50px 0;
+
+  margin: 55px;
+  border-radius: 12px;
+}
+.card {
+  transition:
+    transform 2s ease,
+    box-shadow 0.4s ease;
+}
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  border-radius: 12px;
+  background: var(--card-bg);
+  transition:
+    transform 3s ease,
+    box-shadow 0.3s ease,
+    background 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: var(--text-color);
+  font-weight: bold;
+}
+.skillbar {
+  background: var(--bg-color);
+}
+.progress-bar {
+  transition: width 5s ease;
+}
+
+.profileinfo * {
+  color: var(--text-color);
+}
+
+.whatsapp-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  padding: 18px;
+  font-size: 20px;
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.8);
+  z-index: 1000;
+  animation: whatsapp-glow 2s infinite alternate;
+}
+
+/* Shine / Glow Animation */
+@keyframes whatsapp-glow {
+  0% {
+    box-shadow:
+      0 0 15px rgba(37, 211, 102, 0.6),
+      0 0 30px rgba(37, 211, 102, 0.4);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow:
+      0 0 25px rgba(37, 211, 102, 1),
+      0 0 50px rgba(37, 211, 102, 0.8);
+    transform: scale(1.05);
+  }
+}
+
+.footer * {
+  color: var(--text-color);
+}
+.footer a {
+  color: var(--text-color) !important;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: black !important;
+  text-decoration: underline !important;
+}
+
+footer .social-icons a {
+  transition: color 0.3s ease;
+}

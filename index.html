@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Seyar Azami | Web Developer</title>
+  <link rel="icon" href="images/without back.png" type="image/png">
+  <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/css/bootstrap-icons.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Ahmad Seyar Azami</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav  ms-auto fw-bold">
+          <li class="nav-item"><a class="nav-link" href="#profile">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hereinfo">Protfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#profile">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+         <li class="nav-item">
+          <select id="languageSelect" class="lang-select">
+            <option value="en">🌐</option>
+            <option value="en">English</option>
+            <option value="fa">🇦🇫 فارسی</option>
+            <option value="ps">🇦🇫 پښتو</option>
+          </select>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-6 d-flex justify-content-center align-items-center" data-aos="fade-right">
+        <header class="hero justify-content-center text-center">
+          <img src="images/Copilot_20260402_111221.png" alt="Ahmad Seyar Azami" width="100%" height="100%">
+      </div>
+      <div class="col-lg-6 align-self-center text-center order-first  " data-aos="fade-left" style="padding-top: 50px;">
+        <h1 class="fw-bold">Hi 👋, I'm Ahmad Seyar</h1>
+        <h2 class="text-lable">
+          <span id="typed-text"></span>
+        </h2>
+        <div class="heroinfo" id="hereinfo">
+          <p style="text-align: justify; " data-aos="fade-up"> A <b>motivated</b> and dedicated Computer Science student with a
+            strong passion for <b>software development</b> and building modern, clean, and user-friendly web
+            applications. I enjoy
+            turning ideas into real-world projects and continuously improving my technical and problem-solving skills.
+
+            I have a solid foundation in<b> programming</b>, with experience in Java and a growing interest in Python
+            for web and
+            game development. I am also exploring modern development tools and technologies to expand my knowledge and
+            stay
+            up to date with industry trends.
+
+            I am eager to learn, adaptable to new challenges, and committed to developing high-quality solutions. My
+            goal is
+            to become a skilled software developer and contribute to innovative and impactful projects in the technology
+            field.</p>
+          <a href="#projects" class="btn btn-primary mt-1" style="background-color: #0D1164; font-weight: bold; " data-aos="fade-up">View My
+            Work</a>
+        </div>
+        </header>
+
+      </div>
+    </div>
+  </div>
+  <!-- My Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold" data-aos="fade-left" style="color:#0D1164;">My Services</h2>
+      <p class="text-center mb-5">I provide high-quality solutions tailored to your needs.</p>
+
+      <div class="row g-4">
+        <!-- Service 1 -->
+        <div class="col-lg-3 col-sm-6" data-aos="fade-left">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <img src="images/webdev.jpg" class="card-img-top rounded mb-3" alt="Web Development">
+            <h5 class="fw-bold">Web Development</h5>
+            <p class="small text-muted">Responsive, modern websites built with HTML, CSS, JavaScript, and Bootstrap for
+              a seamless user experience.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-lg-3 col-sm-6" data-aos="fade-right">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <img src="images/webd (2).jpg" class="card-img-top rounded mb-3" alt="UI/UX Design">
+            <h5 class="fw-bold">UI/UX Design</h5>
+            <p class="small text-muted">Clean, intuitive interfaces designed with Figma and color theory for engaging
+              user experiences.</p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-lg-3 col-sm-6" data-aos="fade-right">
+          <div class="card shadow-sm h-100 text-bottom p-3 pt-6">
+            <img src="images/backend (2).png" class="card-img-top rounded mb-3" alt="Backend Development">
+            <h5 class="fw-bold">Backend Development</h5>
+            <p class="small text-muted">Secure and scalable backend systems using PHP, MySQL, and Laravel to power your
+              applications.</p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-lg-3 col-sm-6" data-aos="fade-left">
+          <div class="card shadow-sm h-100 text-center p-3">
+            <img src="images/SEO-image1.jpg" class="card-img-top rounded mb-3" alt="SEO Optimization">
+            <h5 class="fw-bold">SEO Optimization</h5>
+            <p class="small text-muted">Boost your website’s visibility and ranking with optimized content and technical
+              SEO strategies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="#projects" class="btn btn-primary btn-lg fw-bold" data-aos="fade-up">View My Works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profile Section -->
+  <section id="profile" class="py-5">
+    <div class="container">
+      <div class="card shadow p-4">
+        <div class="profileinfo">
+
+          <!-- About -->
+          <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;"data-aos="fade-left">More About Me</h2>
+          <p style="text-align: justify;" data-aos="fade-left">
+            I am a motivated Computer Science student with a strong passion for software development and modern design.
+            My focus is on building clean, user‑friendly web applications, but I also enjoy exploring desktop and mobile
+            app development to broaden my skill set.
+            I have a solid foundation in programming, with experience in Java and growing expertise in Python, alongside
+            web technologies like HTML, CSS, JavaScript, and Bootstrap. I’m continuously learning new tools and
+            frameworks to stay current with industry trends.
+            Curious, adaptable, and detail‑oriented, I thrive on turning ideas into real projects and refining them
+            until they feel polished. My goal is to become a versatile developer who contributes to impactful solutions
+            across web, desktop, and mobile platforms.
+          </p>
+
+          <!-- Education -->
+          <h3 class="mt-4" data-aos="fade-left">Education</h3>
+
+          <ul class=" list-group-flush mb-4"data-aos="fade-right">
+            <li class="list-group-item"> <img src="images/icon.png" alt=""> 2010 - 2022: Graduated from Mohammad Mosa
+              Shafiq High School, Kabul, Afghanistan
+            </li>
+            <li class="list-group-item"> <img src="images/icon.png" alt=""> 2022 - Present: Bachelor in Computer Science
+              (in progress) at Parwan University,
+              Afghanistan</li>
+          </ul>
+
+          <!-- Experience -->
+          <h3 class="mt-4" data-aos="fade-left">Experience</h3>
+          <ul class=" list-group-flush mb-4" data-aos="fade-right">
+            <li class="list-group-item"> <img src="images/icon.png" alt=""> ICDL Instructor (Extra Programmes) at Parwan
+              University</li>
+            <li class="list-group-item"> <img src="images/icon.png" alt=""> Volunteer in Afghan Red Crescent, Parwan
+            </li>
+            <li class="list-group-item"> <img src="images/icon.png" alt=""> Internship: Web Development Practice (Java,
+                    HTML/CSS)</li>
+                  <li class="list-group-item"> <img src="images/icon.png" alt=""> Internship: Software Engineering Practice
+                    (PHP, Laravel)</li>
+                  <li class="list-group-item"> <img src="images/icon.png" alt=""> English Teacher at Fahim Ama Center, Kabul
+                  </li>
+                </ul>
+
+          <!-- Certifications -->
+          <h3 class="mt-4" data-aos="fade-left">Certifications</h3>
+          <div class="row mb-4">
+            <div class="col-md-6" data-aos="fade-right">
+              <ul class="list-group-flush">
+                <li class="list-group-item"> <img src="images/icon.png" alt=""> ICDL Certification</li>
+                <li class="list-group-item"> <img src="images/icon.png" alt=""> Java Programming Certification (Parwan
+                  University)</li>
+                <li class="list-group-item"> <img src="images/icon.png" alt=""> COMPTIA Network+ Certification (Parwan
+                  University)</li>
+              </ul>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <ul class=" list-group-flush">
+                <li class="list-group-item"> <img src="images/icon.png" alt=""> CCNA Certification (Parwan University)
+                </li>
+                <li class="list-group-item"> <img src="images/icon.png" alt=""> English Language Diploma (MELI)</li>
+                <li class="list-group-item"> <img src="images/icon.png" alt=""> Adobe Photoshop Certification (Kabul)
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <h3 class="mt-4"data-aos="fade-left">Languages</h3>
+          <ul class=" list-group-flush mb-4">
+            <li class="list-group-item"><img src="images/icon.png" alt=""> Dari (Native)</li>
+            <li class="list-group-item"><img src="images/icon.png" alt=""> Pashto (Fluent)</li>
+            <li class="list-group-item"><img src="images/icon.png" alt=""> English (Very Good)</li>
+          </ul>
+
+          <!-- Skills -->
+          <h3 class="mt-4" data-aos="fade-left">Skills</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h6>HTML5</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="90">0%</div>
+              </div>
+              <h6>CSS3</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="80">0%</div>
+              </div>
+              <h6>Bootstrap</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="80">0%</div>
+              </div>
+              <h6>Computer Networking</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="70">0%</div>
+              </div>
+              <h6>JavaScript</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="60">0%</div>
+              </div>
+              <h6>MySQL</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="60">0%</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h6>PHP</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="50">0%</div>
+              </div>
+              <h6>Java</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="50">0%</div>
+              </div>
+              <h6>Figma</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="40">0%</div>
+              </div>
+              <h6>Git</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="40">0%</div>
+              </div>
+              <h6>Python</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="30">0%</div>
+              </div>
+              <h6>Oracle</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-info text-dark" data-percentage="20">0%</div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a href="" class="btn btn-primary"
+              style="background-color: #0D1164; font-weight: bold; color:aliceblue" data-aos="fade-up">My CV</a>
+          </div>
+
+        </div>
+      </div>
+  </section>
+  </div>
+
+
+
+
+  <!-- Skills -->
+  <section class="skills" id="skills" class="py-5 bg-light " >
+    <div class="container">
+      <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="fade-up"> My Skills</h2>
+      <div class="row g-4">
+        <div class="col-sm-3 col-6" data-aos="fade-left">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body" >
+              <img src="images/html.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">HTML5</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-6" data-aos="fade-left">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/css3.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">CSS3</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-6" data-aos="fade-left">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/bootstrap.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Bootstrap</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-6" data-aos="fade-left">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/gitup.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Git</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3  col-6" data-aos="fade-left">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/php.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">PHP</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3  col-6" data-aos="fade-right">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/mysql.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">MySQL</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3  col-6" data-aos="fade-right">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/oracal.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Oracle</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3  col-6" data-aos="fade-right">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/python.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Python</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-6 " data-aos="fade-right">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/java.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Java</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-6 " data-aos="fade-bottom">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/javascript.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">JavaScript</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3  col-6"  data-aos="fade-bottom">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/figma.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Figma</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3  col-6" data-aos="fade-bottom">
+          <div class="card text-center shadow-sm h-100">
+            <div class="card-body">
+              <img src="images/network.png" width="100" class="mb-3" alt="HTML5">
+              <h5 class="card-title">Network</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="fade-left">Projects</h2>
+      <div class="row g-4">
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="card shadow-sm h-100">
+            <img src="images/calcolator.png" class="card-img-top" alt="Bank Management System">
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">JavaScript-based calculator application.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="card shadow-sm h-100">
+            <img src="images/bank.png" class="card-img-top" alt="Bank Management System">
+            <div class="card-body">
+              <h5 class="card-title">Bank Management System</h5>
+              <p class="card-text">Java-based application using OOP principles.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="card shadow-sm h-100">
+            <img src="images/chatack.png" class="card-img-top" alt="Bank Management System">
+            <div class="card-body">
+              <h5 class="card-title">Chatack Website</h5>
+              <p class="card-text">A modern website for taxi food and delivery services.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="card shadow-sm h-100">
+            <img src="images/mis library.png" class="card-img-top" alt="Bank Management System">
+            <div class="card-body">
+              <h5 class="card-title">Library MIS</h5>
+              <p class="card-text">library management system </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- Recommendations -->
+<section id="recommendations" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <h2 class="text-center mb-4 text-bg-light fw-bold" 
+            style="color:#0D1164 !important;" data-aos="fade-up">
+          What People Say
+        </h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+          <div class="carousel-inner">
+
+            <!-- person 1 -->
+            <div class="carousel-item active">
+              <div class="card shadow-lg p-4 text-center" style="max-width: 300px; margin: auto;">
+                <img src="images/fazullah.jpg" class="mb-3 align-items-center align-self-center" width="40%" height="40%" alt="Fazullah Mohammadi">
+                <h4>Fazullah Mohammadi</h4>
+                <p class="text-muted">Frontend Developer</p>
+                <p><strong>Email:</strong> fazullah.mohammadi@gmail.com</p>
+                <p><strong>Phone:</strong> 0700123456</p>
+                <div class="text-warning mb-2">★★★★★</div>
+                <p class="fst-italic">"Ahmad Seyar Azami is a talented developer with a strong Look for design."</p>
+              </div>
+            </div>
+
+            <!-- person 2 -->
+            <div class="carousel-item">
+              <div class="card shadow-lg p-4 text-center" style="max-width: 300px; margin: auto;">
+                <img src="images/ramin.jpg" class="mb-3 align-items-center align-self-center" width="40%" height="40%" alt="Ramin Khan">
+                <h4>Ramin Hashimi</h4>
+                <p class="text-muted">Software Engineer</p>
+                <p><strong>Email:</strong> ramin.hashimi@gmail.com</p>
+                <p><strong>Phone:</strong> +93 700 123 456</p>
+                <div class="text-warning mb-2">★★★★☆</div>
+                <p class="fst-italic">"He is reliable, quick to learn, and always committed to high‑quality work."</p>
+              </div>
+            </div>
+
+            <!-- person 3 -->
+            <div class="carousel-item">
+              <div class="card shadow-lg p-4 text-center" style="max-width: 300px; margin: auto;">
+                <img src="images/lotfo.jpg" class="mb-3 align-items-center align-self-center" width="40%" height="40%" alt="Lotfullah Ahmadi">
+                <h4>Lotfullah Ahmadi</h4>
+                <p class="text-muted">Web Developer</p>
+                <p><strong>Email:</strong> lotfullah.ahmadi@gmail.com</p>
+                <p><strong>Phone:</strong> +93 799 456 789</p>
+                <div class="text-warning mb-2">★★★★★</div>
+                <p class="fst-italic">"Ahmad’s portfolio shows creativity and attention to detail."</p>
+              </div>
+            </div>
+
+            <!-- person 4 -->
+            <div class="carousel-item">
+              <div class="card shadow-lg p-4 text-center" style="max-width: 300px; margin: auto;">
+                <img src="images/ismail.jpg" class="mb-3 align-items-center align-self-center" width="40%" height="40%" alt="Ismail Stanikzai">
+                <h4>Ismail Stanikzai</h4>
+                <p class="text-muted">UX/UI Designer</p>
+                <p><strong>Email:</strong> ismail.stanikzai@gmail.com</p>
+                <p><strong>Phone:</strong> +93 700 123 456</p>
+                <div class="text-warning mb-2">★★★★☆</div>
+                <p class="fst-italic">"Seyar is Great UX designer with a keen eye for detail."</p>
+              </div>
+            </div>
+
+            <!-- person 5 -->
+            <div class="carousel-item">
+              <div class="card shadow-lg p-4 text-center" style="max-width: 300px; margin: auto;">
+                <img src="images/qasem.jpg" class="mb-3 align-items-center align-self-center" width="40%" height="40%" alt="qasem azimi">
+                <h4>Mohammad Qasem Azimi</h4>
+                <p class="text-muted">IT Specialist</p>
+                <p><strong>Email:</strong> mohammad.qasem.azimi@gmail.com</p>
+                <p><strong>Phone:</strong> +93 700 123 456</p>
+                <div class="text-warning mb-2">★★★★★</div>
+                <p class="fst-italic">"Ahmad Seyar Brings fresh ideas and executes them well."</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-4">
+  <div class="container" style="color: #0D1164 !important;">
+    <h4 class="text-center display-6 fw-bold mb-3 text-bg-light" 
+        style="color:#0D1164 !important;" data-aos="fade-up">
+      Contact Me
+    </h4>
+    <p class="text-center mb-4">I usually respond within 24 hours.</p>
+
+    <!-- Proper row wrapper -->
+    <div class="row align-items-center">
+      
+      <!-- Left Column: Form -->
+      <div class="col-sm-6" data-aos="fade-left">
+        <div class="card shadow-sm p-3">
+          <form>
+            <div class="mb-2">
+              <label for="name" class="form-label small">Full Name</label>
+              <input type="text" class="form-control form-control-sm" id="name" placeholder="Your name" required>
+            </div>
+            <div class="mb-2">
+              <label for="email" class="form-label small">Email</label>
+              <input type="email" class="form-control form-control-sm" id="email" placeholder="Your email" required>
+            </div>
+            <div class="mb-2">
+              <label for="phone" class="form-label small">Phone (Optional)</label>
+              <input type="tel" class="form-control form-control-sm" id="phone" placeholder="Your phone">
+            </div>
+            <div class="mb-2">
+              <label for="subject" class="form-label small">Subject</label>
+              <select class="form-select form-select-sm" id="subject" required>
+                <option selected disabled>Select...</option>
+                <option value="web">Web Development</option>
+                <option value="design">UI/UX Design</option>
+                <option value="consulting">Consulting</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label small">Message</label>
+              <textarea class="form-control form-control-sm" id="message" rows="3" placeholder="Your message" required></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary btn-sm">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-sm-6 text-center" data-aos="fade-right">
+        <img src="images/point2.png" alt="Contact Person" class="img-fluid" style="max-height: 400px;">
+        <p class="mt-2 text-muted small">Ready to help you — just fill the form!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/93779049873" target="_blank" class="whatsapp-link">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<!-- Footer Section -->
+  <class class="footer">
+    <footer class="text-light pt-5 pb-3" style="background-color:#6bb3dd;">
+      <div class="container">
+        <div class="row">
+         <div class="col-md-4 " style="border-right: 1px solid white;" data-aos="fade-right">
+            <h5 class="fw-bold ">Ahmad Seyar Azami</h5>
+            <p >Crafting immersive digital experiences with modern web technologies.</p>
+            <p>Kabul, Afghanistan </p>
+            <p>ahmadseyarazami@gmail.com</p>
+            <p> +93 779049873</p>
+          </div>
+          <div class="col-md-4 mb-4" style="border-right: 1px solid white" ; data-aos="fade-up">
+            <h5 class="fw-bold ">Quick Links</h5>
+            <ul class="list-unstyled small">
+              <li><a href="#portfolio" class="text-light text-decoration-none">Portfolio</a></li>
+              <li><a href="#services" class="text-light text-decoration-none">My Services</a></li>
+              <li><a href="#experience" class="text-light text-decoration-none">Experience</a></li>
+              <li><a href="#about" class="text-light text-decoration-none">About Me</a></li>
+              <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up">
+            <h6 class="fw-bold ">Follow Me</h6>
+            <div class="d-flex flex-wrap gap-3" style="margin-top: 25%;">
+              <a href="mailto:ahmadseyarazami1383@gmail.com" class="text-light fs-5"></i><img
+                  src="images/icons8_email_50px.png" alt="" style="height: 30px; width: 30px;"></a>
+              <a href="https://wa.me/+93779049873" class="text-light fs-5"><img src="images/icons8_whatsapp_48px.png"
+                  alt="" style="height: 30px; width: 30px;"></a>
+              <a href="https://facebook.com/Ahmad Seyar Azami" class="text-light fs-5"><img
+                  src="images/icons8_facebook_26px.png" alt="" style="height: 30px; width: 30px;"></a>
+              <a href="https://instagram.com/AhmadSeyarAzami" class="text-light fs-5"><img
+                  src="images/icons8_instagram_50px.png" alt="" style="height: 30px; width: 30px;"></a>
+              <a href="https://linkedin.com/in/yourprofile" class="text-light fs-5"><img
+                  src="images/icons8_linkedin_24px.png" alt="" style="height: 30px; width: 30px;"></a>
+              <a href="https://github.com/ahmadseyarazami" class="text-light fs-5"><img
+                  src="images/icons8_github_24px.png" alt="" style="height: 30px; width: 30px;"></a>
+            </div>
+          </div>
+        </div>
+        <hr class="border-light">
+        <div class="text-center">
+        <p class="small mb-0">© 2026 Ahmad Seyar Azami.</p>
+        </div>
+      </div>
+    </footer>
+  </class>
+
+  <script src="lib/typed.min.js"></script>
+  <script src="lib/aos.js"></script>
+  <script>
+    var typed = new Typed("#typed-text", {
+      strings: ["Full Stack Developer!", "With +5 projects", "+2 years Experience", "Bootstrap Expert!"],
+      typeSpeed: 70,
+      backSpeed: 30,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+  <script>
+    document.getElementById("languageSelect").addEventListener("change", function() {
+  const lang = this.value;
+  if (lang === "en") {
+    window.location.href = "index.html";
+  } else if (lang === "fa") {
+    window.location.href = "index-fa.html";
+  } else if (lang === "ps") {
+    window.location.href = "index-ps.html";
+  }
+});
+
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const bars = document.querySelectorAll(".progress-bar");
+
+      bars.forEach(bar => {
+        let target = bar.getAttribute("data-percentage");
+        let count = 0;
+        let interval = setInterval(() => {
+          if (count >= target) {
+            clearInterval(interval);
+          } else {
+            count++;
+            bar.style.width = count + "%";
+            bar.textContent = count + "%";
+          }
+        }, 30); 
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+  duration: 1000,
+  once: false,   // allow animation every time element enters viewport
+  easing: 'ease-in-out'
+});
+
+</script>
+ <script src="lib/js/bootstrap.bundle.min.js"></script>
+ <script src="lib/typed.min.js"></script>
+  <script src="lib/aos.js"></script>
+  <script>
+document.addEventListener("scroll", () => {
+  document.querySelectorAll(".card, h2, p").forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      el.classList.add("show");
+    }
+  });
+});
+</script>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

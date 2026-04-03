@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Ahmad Seyar Azami | Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pictures/logo1.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/aos.css">
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  
+    
+
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+    </form>
+    </div>
+  </div>
+</nav>
+
+    <section class="hero" data-aos="fade-up">
+        <h1>Hi 👋, I'm Ahmad Seyar </h1>
+        <p><span id="typed"></span></p>
+        <a href="#projects" id="View" class="btn">View My Work</a>
+       
+    </section>
+
+    <section id="about" data-aos="fade-right">
+        <h2>About Me</h2>
+       
+        <p>
+            I am a motivated Computer Science student passionate about building
+            modern, clean, and user-friendly web applications.
+           </p>
+    </section>
+
+    <section id="skills" data-aos="fade-left">
+
+        <h2>Skills</h2>
+        
+        <div class="skills">
+            
+            <span>HTML5
+            </span>
+            <span>CSS3</span>
+            <span>Java Script</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>Ux/UI</span>
+            <span>PhP</span>
+            <span>Bootstrap</span>
+            <span>Git</span>
+
+        </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+       
+        <div class="project" >
+            <h3>Bank Management System</h3>
+            <p>Java-based console application using OOP principles.</p>
+        </div>
+    </section>
+
+    <section id="cv" data-aos="fade-up">
+        <h2>CV / Resume</h2>
+       
+        <div class="cv-section">
+            <h3>Education</h3>
+            <p>Bachelor in Computer Science (in progress)</p>
+
+            <h3>Experience</h3>
+            <p>Internship: Web Development Practice (Java, HTML/CSS)</p>
+
+            <h3>Skills</h3>
+            <p>HTML, CSS, Java, Firebase, Git</p>
+
+            <h3>Languages</h3>
+            <p>English (Intermediate), Dari (Native)</p>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact</h2>
+       
+        <p>Email:ahmadseyarazami1383@email.com</p>
+    </section>
+
+    <footer>
+        
+         <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>© 2026 Seyar. All rights reserved.</p>
+
+    </footer>
+
+    <!-- Scripts -->
+
+    <script src="lib/typed.min.js"></script>
+    <script src="script.js"></script>
+    <script src="lib/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({ duration: 1000, once: true });
+
+        // Initialize Typed.js
+        var typed = new Typed('#typed', {
+            strings: [" Full Stack Developer !", "with more than +2 years Experience ", "With more than +20 projects",
+
+            ],
+            typeSpeed: 40,
+            backSpeed: 25,
+            backDelay: 1800,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
