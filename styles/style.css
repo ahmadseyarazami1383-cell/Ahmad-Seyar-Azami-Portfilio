@@ -12,27 +12,53 @@ body.dark {
   --card-bg: #1e1e1e;
   --accent: #6bb3dd;
 }
-
+html,
 body {
-  font-family: "Roboto", sans-serif;
-
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-y: auto; /* Allow natural vertical scroll */
   font-family: Arial, Helvetica, sans-serif;
-  background: var(--bg-color) !important;
+  background: var(--bg-color);
   color: var(--text-color);
-  scroll-behavior: smooth;
+
   transition:
     background 0.4s ease,
     color 0.4s ease;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Don’t override Bootstrap’s row flexbox */
+section {
+  min-height: 100vh !important;
+  height: auto;
+}
+
+/* Responsive media */
+@media (max-width: 768px) {
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
-  right: 150px;
+  right: 20px;
   width: 60px;
   height: 60px;
   background-color: #25d366;
@@ -69,6 +95,7 @@ body {
 }
 
 .navbar {
+  position: fixed;
   background: linear-gradient(
     rgba(107, 179, 221, 0.3),
     rgba(107, 179, 221, 0.3),
@@ -77,7 +104,8 @@ body {
   width: 100% !important;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
+  display: flex;
+  z-index: 999;
   .navbar {
     margin-left: 20px;
     margin-right: 20px;
