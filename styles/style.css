@@ -162,29 +162,6 @@ body {
   color: var(--text-color);
 }
 
-.whatsapp-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px; /* keep it close to the corner */
-
-  background-color: #25d366;
-  color: white;
-  border-radius: 50%;
-  padding: 15px;
-  font-size: 20px; /* slightly larger for visibility */
-  box-shadow: 0 0 20px rgba(37, 211, 102, 0.8);
-  z-index: 9999; /* ensures it stays above other elements */
-  animation: whatsapp-glow 2s infinite alternate;
-}
-@media (max-width: 576px) {
-  .whatsapp-link {
-    bottom: 15px;
-    right: 15px;
-    padding: 12px;
-    font-size: 18px;
-  }
-}
-
 .footer * {
   color: var(--text-color);
 }
