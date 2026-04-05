@@ -8,10 +8,12 @@
   <link rel="icon" href="images/without back.png" type="image/png">
   <link href="lib/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="lib/css/bootstrap-icons.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link href="styles/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
+  <link rel="stylesheet" href="lib/aos-master/aos-master/dist/aos.css" />
+  <link rel="stylesheet" href="lib/bootstrap-icons-1.13.1/bootstrap-icons-1.13.1/bootstrap-icons.css">
+  <link rel="stylesheet" href="lib/bootstrap-icons-1.13.1/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+  <script src="lib/aos.js"></script>
+  </head>
 <body>
 <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent  shadow-sm">
@@ -46,23 +48,19 @@
   <div class="row">
 
     <!-- Image -->
-    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center order-lg-2 order-2" data-aos="fade-right">
+    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center order-lg-2 order-2" data-aos="zoom-in">
       <header class="hero text-center">
         <img src="images/Copilot_20260402_111221.png" alt="Ahmad Seyar Azami" class="img-fluid" style="max-width:500px; max-height: 500px;" >
       </header>
     </div>
-
-    <!-- Text -->
-    <div class="col-lg-6 col-12 align-self-center text-center align-items-center  order-lg-1 order-1" data-aos="fade-left" style="padding-top: 50px; text-align: justify !important;">
-      
-      <h1 class="fw-bold">Hi 👋, I'm Ahmad Seyar</h1>
-
-      <h2 class="text-lable">
+<!-- Text -->
+    <div class="col-lg-6 col-12 align-self-center text-center align-items-center  order-lg-1 order-1" data-aos="fade-left" style="padding-top: 80px; text-align: justify !important;">
+    <h1 class="fw-bold">Hi 👋, I'm Ahmad Seyar</h1>
+    <h2 class="text-lable">
         <span id="typed-text"></span>
-      </h2>
-
-      <div class="heroinfo" id="hereinfo">
-        <p class="text-justify" data-aos="fade-up">
+    </h2>
+        <div class="heroinfo" id="hereinfo">
+        <p class="text-justify" data-aos="zoom-in">
           A <b>motivated</b> and dedicated Computer Science student with a strong passion for 
           <b>software development</b> and building modern, clean, and user-friendly web applications.
           I enjoy turning ideas into real-world projects and continuously improving my technical 
@@ -76,8 +74,7 @@
           solutions. My goal is to become a skilled software developer and contribute to innovative 
           and impactful projects in the technology field.
         </p>
-
-        <a href="#projects" class="btn btn-primary mt-2" style="background-color: #0D1164; font-weight: bold;" data-aos="fade-up">
+        <a href="#projects" class="btn btn-primary mt-2" style="background-color: #0D1164; font-weight: bold;" >
           View My Work
         </a>
       </div>
@@ -90,7 +87,7 @@
 <section id="services" class="py-5 bg-light">
   <div class="container">
     
-    <h2 class="text-center mb-4 fw-bold" data-aos="fade-left" style="color:#0D1164;">
+    <h2 class="text-center mb-4 fw-bold" data-aos="zoom-in" style="color:#0D1164;">
       My Services
     </h2>
 
@@ -102,7 +99,7 @@
     <div class="row g-4 justify-content-center">
 
       <!-- Service 1 -->
-      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="fade-left">
+      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="zoom-in">
         <div class="card shadow-sm h-100 text-center p-3 w-100">
           <img src="images/webdev.jpg" class="card-img-top img-fluid rounded mb-3" alt="Web Development">
           <h5 class="fw-bold">Web Development</h5>
@@ -113,7 +110,7 @@
       </div>
 
       <!-- Service 2 -->
-      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="fade-right">
+      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="zoom-in">
         <div class="card shadow-sm h-100 text-center p-3 w-100">
           <img src="images/webd (2).jpg" class="card-img-top img-fluid rounded mb-3" alt="UI/UX Design">
           <h5 class="fw-bold">UI/UX Design</h5>
@@ -124,7 +121,7 @@
       </div>
 
       <!-- Service 3 -->
-      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="fade-right">
+      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="zoom-in">
         <div class="card shadow-sm h-100 text-center p-3 w-100">
           <img src="images/backend (2).png" class="card-img-top img-fluid rounded mb-3" alt="Backend Development">
           <h5 class="fw-bold">Backend Development</h5>
@@ -135,7 +132,7 @@
       </div>
 
       <!-- Service 4 -->
-      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="fade-left">
+      <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center" data-aos="zoom-in">
         <div class="card shadow-sm h-100 text-center p-3 w-100">
           <img src="images/SEO-image1.jpg" class="card-img-top img-fluid rounded mb-3" alt="SEO Optimization">
           <h5 class="fw-bold">SEO Optimization</h5>
@@ -148,7 +145,7 @@
     </div>
 
     <div class="text-center mt-4">
-      <a href="#projects" class="btn btn-primary btn-lg fw-bold" data-aos="fade-up">
+      <a href="#projects" class="btn btn-primary btn-lg fw-bold" data-aos="zoom-in">
         View My Works
       </a>
     </div>
@@ -162,11 +159,12 @@
       <div class="profileinfo">
 
         <!-- About -->
-        <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="fade-left">
+         <div class="container">
+        <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="zoom-in">
           More About Me
         </h2>
 
-        <p style="text-align: justify;" data-aos="fade-left">
+        <p style="text-align: justify;" data-aos="zoom-in">
           I am a motivated Computer Science student with a strong passion for software development and modern design.
           My focus is on building clean, user-friendly web applications, but I also enjoy exploring desktop and mobile
           app development to broaden my skill set.
@@ -179,17 +177,17 @@
         </p>
 
         <!-- Education -->
-        <h3 class="mt-4" data-aos="fade-left">Education</h3>
+        <h3 class="mt-4" data-aos="zoom-in">Education</h3>
 
-        <ul class="list-group list-group-flush mb-4" data-aos="fade-right">
+        <ul class="list-group list-group-flush mb-4" data-aos="zoom-in">
           <li class="list-group-item"><img src="images/icon.png" alt=""> 2010 - 2022: Graduated from Mohammad Mosa Shafiq High School, Kabul, Afghanistan</li>
           <li class="list-group-item"><img src="images/icon.png" alt=""> 2022 - Present: Bachelor in Computer Science (in progress) at Parwan University, Afghanistan</li>
         </ul>
 
         <!-- Experience -->
-        <h3 class="mt-4" data-aos="fade-left">Experience</h3>
+        <h3 class="mt-4" data-aos="zoom-in">Experience</h3>
 
-        <ul class="list-group list-group-flush mb-4" data-aos="fade-right">
+        <ul class="list-group list-group-flush mb-4" data-aos="zoom-in">
           <li class="list-group-item"><img src="images/icon.png" alt=""> ICDL Instructor (Extra Programmes) at Parwan University</li>
           <li class="list-group-item"><img src="images/icon.png" alt=""> Volunteer in Afghan Red Crescent, Parwan</li>
           <li class="list-group-item"><img src="images/icon.png" alt=""> Internship: Web Development Practice (Java, HTML/CSS)</li>
@@ -201,7 +199,7 @@
         <h3 class="mt-4" data-aos="fade-left">Certifications</h3>
 
         <div class="row mb-4 justify-content-center">
-          <div class="col-md-6 col-12" data-aos="fade-right">
+          <div class="col-md-6 col-12" data-aos="zoom-in">
             <ul class="list-group list-group-flush">
               <li class="list-group-item"><img src="images/icon.png" alt=""> ICDL Certification</li>
               <li class="list-group-item"><img src="images/icon.png" alt=""> Java Programming Certification (Parwan University)</li>
@@ -209,7 +207,7 @@
             </ul>
           </div>
 
-          <div class="col-md-6 col-12" data-aos="fade-left">
+          <div class="col-md-6 col-12" data-aos="zoom-in">
             <ul class="list-group list-group-flush">
               <li class="list-group-item"><img src="images/icon.png" alt=""> CCNA Certification (Parwan University)</li>
               <li class="list-group-item"><img src="images/icon.png" alt=""> English Language Diploma (MELI)</li>
@@ -219,16 +217,16 @@
         </div>
 
         <!-- Languages -->
-        <h3 class="mt-4" data-aos="fade-left">Languages</h3>
+        <h3 class="mt-4" data-aos="zoom-in">Languages</h3>
 
         <ul class="list-group list-group-flush mb-4">
           <li class="list-group-item"><img src="images/icon.png" alt=""> Dari (Native)</li>
           <li class="list-group-item"><img src="images/icon.png" alt=""> Pashto (Fluent)</li>
           <li class="list-group-item"><img src="images/icon.png" alt=""> English (Very Good)</li>
         </ul>
-
+         </div>
         <!-- Skills -->
-        <h3 class="mt-4" data-aos="fade-left">Skills</h3>
+        <h3 class="mt-4" data-aos="zoom-in">Skills</h3>
 
         <div class="row">
           <div class="col-md-6 col-12">
@@ -297,7 +295,7 @@
         </div>
 
         <div class="text-center mt-4">
-          <a href="" class="btn btn-primary" style="background-color: #0D1164; font-weight: bold; color:aliceblue" data-aos="fade-up">
+          <a href="" class="btn btn-primary" style="background-color: #0D1164; font-weight: bold; color:aliceblue" data-aos="zoom-in">
             My CV
           </a>
         </div>
@@ -309,14 +307,14 @@
 
 
 <!-- Skills -->
-<section id="skills" class="skills py-5 bg-light">
-  <div class="container">
+<section id="skills" class="skills py-5 ">
+  <div class="container" >
 
-    <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="fade-up">
+    <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="zoom-in">
       My Skills
     </h2>
 
-    <div class="row g-4 justify-content-center">
+    <div class="row g-4 justify-content-center align-items-center align-self-center">
 
       <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-left">
         <div class="card text-center shadow-sm h-100">
@@ -327,7 +325,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-left">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/css3.png" width="100" class="mb-3" alt="CSS3">
@@ -336,7 +334,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-left">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/bootstrap.png" width="100" class="mb-3" alt="Bootstrap">
@@ -345,7 +343,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-left">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/gitup.png" width="100" class="mb-3" alt="Git">
@@ -354,7 +352,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-left">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/php.png" width="100" class="mb-3" alt="PHP">
@@ -363,7 +361,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-right">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/mysql.png" width="100" class="mb-3" alt="MySQL">
@@ -372,7 +370,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-right">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/oracal.png" width="100" class="mb-3" alt="Oracle">
@@ -381,7 +379,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-right">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/python.png" width="100" class="mb-3" alt="Python">
@@ -390,7 +388,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-right">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/java.png" width="100" class="mb-3" alt="Java">
@@ -399,7 +397,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-bottom">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/javascript.png" width="100" class="mb-3" alt="JavaScript">
@@ -408,7 +406,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-bottom">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/figma.png" width="100" class="mb-3" alt="Figma">
@@ -417,7 +415,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-bottom">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="zoom-in">
         <div class="card text-center shadow-sm h-100">
           <div class="card-body">
             <img src="images/network.png" width="100" class="mb-3" alt="Network">
@@ -432,9 +430,9 @@
   <!-- Projects -->
   <section id="projects" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="fade-left">Projects</h2>
+      <h2 class="text-center mb-4 text-bg-light fw-bold" style="color:#0D1164 !important;" data-aos="zoom-in">Projects</h2>
       <div class="row g-4">
-        <div class="col-sm-6" data-aos="fade-left">
+        <div class="col-sm-6" data-aos="zoom-in">
           <div class="card shadow-sm h-100">
             <img src="images/calcolator.png" class="card-img-top" alt="Bank Management System">
             <div class="card-body">
@@ -444,7 +442,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6" data-aos="fade-right">
+        <div class="col-sm-6" data-aos="zoom-in">
           <div class="card shadow-sm h-100">
             <img src="images/bank.png" class="card-img-top" alt="Bank Management System">
             <div class="card-body">
@@ -454,7 +452,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6" data-aos="fade-left">
+        <div class="col-sm-6" data-aos="zoom-in">
           <div class="card shadow-sm h-100">
             <img src="images/chatack.png" class="card-img-top" alt="Bank Management System">
             <div class="card-body">
@@ -464,7 +462,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6" data-aos="fade-right">
+        <div class="col-sm-6" data-aos="zoom-in">
           <div class="card shadow-sm h-100">
             <img src="images/mis library.png" class="card-img-top" alt="Bank Management System">
             <div class="card-body">
@@ -623,7 +621,7 @@
 </section>
 
   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
 <!-- Footer Section -->
   <class class="footer">
     <footer class="text-light pt-5 pb-3" style="background-color:#6bb3dd;">
@@ -673,7 +671,7 @@
   </class>
   <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/93779049873" target="_blank" class="whatsapp-float">
-  <i class="fab fa-whatsapp"></i>
+  <i class="bi bi-whatsapp"></i>
   
 </a>
 
